@@ -8,6 +8,6 @@ import retrofit2.http.Query;
 public interface ApodService {
 
   @GET("planetary/apod")
-  Call<Apod> get(@Query("api_key") String apiKey, @Query("data") String date);
+  Call<Apod> get(@Query("api_key") String apiKey, @Query("date") String date);
 
 }
