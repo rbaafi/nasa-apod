@@ -14,10 +14,10 @@ public class Apod {
 
   @Expose
   @SerializedName("explanation")
-  private String explanation;
+  private String description;
 
   @Expose
-  private String copuright;
+  private String copyright;
 
   @Expose
   @SerializedName("media_type")
@@ -50,20 +50,20 @@ public class Apod {
     this.title = title;
   }
 
-  public String getExplanation() {
-    return explanation;
+  public String getDescription() {
+    return description;
   }
 
-  public void setExplanation(String explanation) {
-    this.explanation = explanation;
+  public void setDescription(String description) {
+    this.description = description;
   }
 
-  public String getCopuright() {
-    return copuright;
+  public String getCopyright() {
+    return copyright;
   }
 
-  public void setCopuright(String copuright) {
-    this.copuright = copuright;
+  public void setCopyright(String copyright) {
+    this.copyright = copyright;
   }
 
   public String getMediaType() {
